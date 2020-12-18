@@ -20,11 +20,17 @@ cd EventHubs-Kafka-DotNet/SweetStreams
 ## Edit the Program.cs to set your Connection Strings
 
 ```csharp
+
+static void Main(string[] args)
+{
+        
             var brokerList = "sweetstreams.servicebus.windows.net:9093";
             string connectionString = "Endpoint=sb://sweetstreams.servicebus.windows.net/;SharedAccessKeyName=Izzy;SharedAccessKey=AIE54oZFiGNuz89FIqSjHTOfTcsNhVfMG+kyOnCmKx8=;EntityPath=salmonriver";
             string topic = "salmonriver";
             string cacertlocation = "cacert.pem";
             string consumerGroup = "riverdreams2";
+            
+ }
 
 ```
 
