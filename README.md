@@ -1,4 +1,5 @@
-# EventHubs-Kafka-DotNet
+# .NET CORE Sample Kafka Code 
+
 Sample .NET client interacting with Apache Kafka (Event Hubs)
 
 
