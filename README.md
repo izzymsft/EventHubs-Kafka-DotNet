@@ -19,6 +19,8 @@ cd EventHubs-Kafka-DotNet/SweetStreams
 
 ## Edit the Program.cs to set your Connection Strings
 
+In the scenario below, "sweetstreams" is the namespace (cluster), "salmonriver" is the EventHub (topic) and "riverdreams2" is the consumer group name.
+
 ```csharp
 
 static void Main(string[] args)
